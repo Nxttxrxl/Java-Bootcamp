@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(137, 147, 211);
+}
+
+th{
+    padding-top: 10px;
+}
+td {
+  border-left: 1px solid;
+  border-bottom: solid 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+}
+
+span {
+  font-weight: bold;
+  background-color: aqua;
+  
+}
+
+table {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  border: solid 5px black;
+  background-color: pink;
+  text-align: center;
+  
+}
+
+tfoot {
+  background-color: aqua;
+  font-weight: bold;
+}

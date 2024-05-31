@@ -1,0 +1,21 @@
+div{
+    
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-top: dotted 6px green;
+    border-bottom: solid 6px red;
+    border-left: double 6px black;
+    border-right: dashed 6px blue;
+    
+    
+}
+
+
+
+
