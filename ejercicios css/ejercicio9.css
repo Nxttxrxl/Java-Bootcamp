@@ -1,0 +1,16 @@
+#div1 {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  /*overflow: hidden;*/
+  overflow-x: auto;
+}
+
+#div2 {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  overflow: hidden;
+}

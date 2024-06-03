@@ -1,0 +1,11 @@
+#div1 {
+  background-color: red;
+  outline: 10px solid blue;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+
+#div1:hover {
+  outline-style: dotted;
+}
