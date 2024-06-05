@@ -1,0 +1,39 @@
+.box {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.dot {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.sign {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: -40%;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: #01ff02;
+}
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+}
+.light-blue {
+  background-color: #00feff;
+}
+
+.yellow {
+  background-color: yellow;
+}
