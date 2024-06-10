@@ -1,0 +1,166 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(c:\Users\Tarda\Desktop\fonts\Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0px;
+  font-family: 'Montserrat';
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFF;
+  padding: 15px 0px;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 15px;
+}
+
+ul {
+  padding: 0px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 16px;
+}
+
+.menu {
+  text-decoration: none;
+  color: black;
+}
+
+#hero {
+  display: flex;
+  height: 75vh;
+  width: 100%;
+  background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 60px;
+    margin: 0px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.child {
+  display: flex;
+  width: 300px;
+  height: 250px;
+  background-color: #FFF;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    color: #00B172;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 22px;
+
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    color: #1A1A1A;
+  }
+
+}
+
+
+
+#sound {
+  height: 80px;
+  margin-top: 10px;
+}
+
+#quality {
+  height: 80px;
+  margin-top: 10px;
+}
+
+#devices {
+  height: 80px;
+  margin-top: 15px;
+}
+
+@media (max-width: 480px) {
+  .nav-bar {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #hero {
+    h1 {
+      font-size: 32px;
+
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #hero {
+    h1 {
+      font-size: 46px;
+
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+  }
+}
