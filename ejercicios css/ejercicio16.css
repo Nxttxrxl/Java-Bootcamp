@@ -1,0 +1,43 @@
+body {
+    /* margin: 0px */
+    background-color: lightgrey;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 50px 400px 300px 100px;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header menu menu menu"
+        "hero hero hero hero"
+        "main main . image"
+        "banner banner banner banner"
+    ;
+
+}
+
+#header {
+    grid-area: header;
+}
+
+#menu {
+    grid-area: menu;
+}
+
+#hero {
+    grid-area: hero;
+}
+
+#main {
+    grid-area: main;
+}
+
+#banner {grid-area: banner;}
+
+#extra {
+    grid-area: extra;
+}
+
+#image {
+    grid-area: image;
+}
