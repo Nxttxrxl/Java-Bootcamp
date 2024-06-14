@@ -1,0 +1,117 @@
+body {
+  background: rgb(237, 237, 237);
+  font-family: Arial, Helvetica, sans-serif;
+
+  @font-face {
+    font-family: 'Lato';
+    src: url(C:\Users\Tarda\Desktop\fonts\Lato);
+  }
+
+  margin: 0px;
+}
+
+
+
+.navbar {
+  background-color: white;
+  height: auto
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  height: 40px;
+  padding-right: 5px;
+}
+
+#search-input {
+  width: 50vw;
+  height: 25px;
+  align-self: center;
+  background-color: white;
+  background-image: url(./images/search.png);
+  background-position: 3px 2px;
+  background-repeat: no-repeat;
+  padding: 1px 0px 0px 24px;
+  border-radius: 5px;
+  border: solid lightgrey 1px;
+}
+
+#settings,
+#login {
+  margin: 0px 10px 0px 10px;
+  align-self: center;
+}
+
+
+.nav-container {
+  width: auto;
+}
+
+.nav-menu {
+  display: flex;
+  width: 60vw;
+
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+
+  display: flex;
+  margin: 0px 15px 15px 15px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+.welcome {
+  width: 60vw;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: center;
+  border: solid 1px lightgrey;
+}
+
+.welcome p {
+  font-size: 14px;
+  align-self: center;
+  color: rgb(154, 154, 154);
+
+
+}
+
+.welcome b {
+  margin-right: 10px;
+  color: black;
+
+}
+
+#email-input {
+  height: 25px;
+  align-self: center;
+  margin: 0px 20px 0px 20px
+}
+
+#subscribe-button {
+  height: 28px;
+  background-color: rgb(231, 78, 22);
+  color: white;
+  align-self: center;
+
+
+}
+
+.close-button {
+  height: 12px;
+  align-self: center;
+}
