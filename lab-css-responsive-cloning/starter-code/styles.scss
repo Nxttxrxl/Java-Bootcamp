@@ -98,8 +98,9 @@ a:hover {
   height: 50px;
   margin: auto;
   margin-top: 25px;
+  margin-bottom: 50px;
   display: flex;
-  flex-wrap: wrap;
+
   background-color: white;
   justify-content: center;
   align-items: center;
@@ -127,7 +128,7 @@ a:hover {
   margin: 0px 10px 0px 20px
 }
 
-p#emoji{
+#emoji {
   font-size: 18px;
   margin: 0px 5px 0px 0px
 }
@@ -146,6 +147,31 @@ p#emoji{
   left: 83%;
 }
 
+.popular {
+  width: 50vw;
+  margin: auto;
+  display: grid;
+  border: solid white 3p;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr 3fr 3fr;
+
+
+
+  
+
+
+
+  
+}
+
+.popular-title{
+  display: flex;
+}
+
+#popular-title {
+  margin: 0px;
+
+}
 
 @media (max-width: 480px) {
   body {
