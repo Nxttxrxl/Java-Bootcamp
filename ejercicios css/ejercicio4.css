@@ -1,0 +1,18 @@
+body {
+  background-color: grey;
+}
+
+p {
+  column-count: 3;
+  column-rule: solid 2px red;
+  column-gap: 40px;
+}
+
+span:hover {
+  color: rgb(255, 255, 255);
+}
+
+p::selection {
+  background-color: white;
+  color: red;
+}

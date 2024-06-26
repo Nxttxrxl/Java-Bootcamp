@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 300px 125px 125px 100px;
+    grid-template-areas:
+        "header menu menu menu"
+        "hero hero hero hero"
+        "main main . image"
+        "main main . extra"
+        "banner banner banner banner"
+    ;
+
+    
+    
+    align-content: center;
+
+    
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(6, 6, 56);
+}
+
+.menu {
+    grid-area: menu;
+    background-color: rgb(227, 64, 64);
+}
+
+.hero {
+    grid-area: hero;
+    background-color: rgb(95, 95, 207);
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(6, 4, 59);
+}
+
+.banner {
+    grid-area: banner;
+    background-color: rgb(220, 203, 52);
+    color: black;
+}
+
+.extra {
+    grid-area: extra;
+    background-color: rgb(83, 174, 120);
+    color: black;
+    
+}
+
+.image {
+    grid-area: image;
+    background-color: rgb(176, 216, 216);
+    color: black;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    
+
+    #container{
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 50px 250px 200px 100px 100px;
+        grid-template-areas: 
+        "header header header"
+        "hero hero hero"
+        "menu main main"
+        "menu banner banner"
+        "menu extra image"
+        ;
+    }
+}
+
+@media (max-width: 425px) {
+    #container{
+        grid-template-columns: auto;
+        grid-template-rows: 50px 50px 150px 150px 100px 100px 100px;
+        grid-template-areas: 
+        "header"
+        "menu"
+        "hero"
+        "main"
+        "banner"
+        "extra"
+        "image"
+        ;
+    }
+}

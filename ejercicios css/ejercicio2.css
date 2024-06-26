@@ -1,0 +1,7 @@
+#myAge:out-of-range {
+  border: 2px solid red;
+}
+
+#myAge:in-range {
+  border: 2px solid green;
+}

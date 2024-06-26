@@ -1,0 +1,60 @@
+.box {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.box-1 {
+  background-color: greenyellow;
+  display: inline;
+  border: solid 2px black;
+  position: absolute;
+  top: 138px;
+  left: 141px;
+  
+}
+.box-2 {
+  background-color: greenyellow;
+  display: inline;
+  border: solid 2px black;
+  position: absolute;
+  top: 138px;
+  left: 292px;
+ 
+}
+.box-3 {
+  background-color: greenyellow;
+  display: inline;
+  border: solid 2px black;
+  position: absolute;
+  top: 290px;
+  left: 141px;
+  
+  
+}
+.box-4 {
+  background-color: greenyellow;
+  display: inline;
+  border: solid 2px black;
+  position: absolute;
+  top: 290px;
+  left: 292px;
+  
+}
+.box-5 {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  border: solid 2px black;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  z-index: -1;
+}

@@ -1,0 +1,299 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(c:\Users\Tarda\Desktop\fonts\Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0px;
+  font-family: 'Montserrat';
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFF;
+  padding: 15px 0px 5px;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 15px;
+}
+
+ul {
+  padding: 0px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 16px;
+}
+
+.menu {
+  text-decoration: none;
+  color: black;
+}
+
+#hero {
+  display: flex;
+  height: 75vh;
+  width: 100%;
+  background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 60px;
+    margin: 0px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.child {
+  display: flex;
+  width: 300px;
+  height: 250px;
+  background-color: #FFF;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+
+  h4 {
+    color: #00B172;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 22px;
+
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    color: #1A1A1A;
+  }
+}
+
+
+
+#sound {
+  height: 80px;
+  margin-top: 10px;
+}
+
+#quality {
+  height: 80px;
+  margin-top: 10px;
+}
+
+#devices {
+  height: 80px;
+  margin-top: 15px;
+}
+
+
+.yeezy {
+  background-color: #00B172;
+  height: auto;
+  display: block;
+  width: 95vw;
+  margin: auto;
+
+
+  h3 {
+    color: #FFF;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    text-underline-offset: 10px;
+    font-size: 26px;
+    padding-left: 75px;
+    padding-top: 50px;
+    margin: 0;
+
+
+  }
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.yeezy-child {
+  width: 300px;
+  margin-left: 75px;
+  margin-bottom: 50px;
+  color: #FFF;
+
+  p {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 24px;
+    margin-top: 48px;
+  }
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+
+}
+
+.app {
+  height: 500px;
+  width: 300px;
+  display: flex;
+  padding-right: 50px;
+  margin-bottom: 50px;
+
+}
+
+
+@media (max-width: 480px) {
+  .nav-bar {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #hero {
+    h1 {
+      font-size: 32px;
+
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+  }
+
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .yeezy {
+    h3{
+      padding: 50px 0px 50px 0px;
+      text-align: center;
+      font-size: 24px;
+    }
+  }
+
+  .container-2{
+    flex-direction: column;
+  }
+  .yeezy-child{
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+
+    p{
+      font-size: 16px;
+    }
+
+    h4{
+      font-size: 20px;
+    }
+  }
+  .icon{
+    align-self: center;
+  }
+  .app{
+    align-self: center;
+    padding: 0px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #hero {
+    h1 {
+      font-size: 46px;
+
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+  }
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .yeezy {
+    h3{
+      padding: 50px 0px 50px 0px;
+      text-align: center;
+      font-size: 26px;
+    }
+  }
+
+  .container-2{
+    flex-direction: column;
+  }
+  .yeezy-child{
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+    
+  }
+  .icon{
+    align-self: center;
+  }
+  .app{
+    align-self: center;
+    padding: 0px;
+    margin-top: 50px;
+  }
+}

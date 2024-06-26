@@ -1,0 +1,218 @@
+body {
+  background: rgb(237, 237, 237);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+}
+
+.navbar {
+  background-color: white;
+  height: auto;
+}
+
+.search-box {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+#logo {
+  height: 40px;
+  padding-right: 5px;
+}
+
+#search-input {
+  width: 50vw;
+  height: 25px;
+  align-self: center;
+  background-color: white;
+  background-image: url(./images/search.png);
+  background-position: 3px 2px;
+  background-repeat: no-repeat;
+  padding: 1px 0px 0px 24px;
+  border-radius: 5px;
+  border: solid #d3d3d3 1px;
+}
+
+#settings,
+#login {
+  margin: 0px 10px 0px 10px;
+  align-self: center;
+}
+
+.nav-container {
+  width: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px 0px 10px 0px;
+}
+
+a {
+  color: #999999;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a.nav-link {
+  text-decoration: none;
+  margin: 15px 15px 15px 15px;
+  padding: 10px 5px 10px 5px;
+  border-top: solid 1px rgb(240, 240, 240);
+}
+
+a.nav-link.arrow {
+  padding: 10px 5px 10px 5px;
+}
+
+a:hover {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+#arrow {
+  height: 15px;
+  align-self: center;
+}
+
+.welcome {
+  width: 70vw;
+  height: 50px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px lightgrey;
+}
+
+.welcome p {
+  font-size: 12px;
+  align-self: center;
+  color: rgb(154, 154, 154);
+}
+
+.welcome b {
+  margin-right: 10px;
+  color: black;
+}
+
+#email-input {
+  height: 25px;
+  align-self: center;
+  margin: 0px 10px 0px 20px;
+}
+
+#emoji {
+  font-size: 18px;
+  margin: 0px 5px 0px 0px;
+}
+
+#subscribe-button {
+  height: 28px;
+  background-color: rgb(231, 78, 22);
+  color: white;
+  align-self: center;
+}
+
+.close-button {
+  height: 12px;
+  align-self: center;
+  position: absolute;
+  left: 83%;
+}
+
+.popular {
+  width: 50vw;
+  margin: auto;
+  display: grid;
+  border: solid white 3p;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr 3fr 3fr;
+}
+
+.popular-title {
+  display: flex;
+}
+
+#popular-title {
+  margin: 0px;
+}
+
+@media (max-width: 480px) {
+  body {
+    background-color: green;
+  }
+  .search-box {
+    width: auto;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+    flex-direction: column;
+  }
+  #logo {
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    padding-bottom: 5px;
+  }
+  #settings,
+  #login {
+    padding: 6px 0px 4px 0px;
+    font-size: 14px;
+  }
+  #search-input {
+    width: 60vw;
+  }
+  a {
+    font-size: 12px;
+  }
+  .nav-container {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+  .search-box {
+    width: auto;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+  }
+  #logo {
+    height: 30px;
+    width: 30px;
+    padding-bottom: 5px;
+  }
+  #settings,
+  #login {
+    padding: 6px 0px 4px 0px;
+    font-size: 14px;
+  }
+  #search-input {
+    width: 60vw;
+  }
+  a {
+    font-size: 12px;
+  }
+}
+@media (min-width: 769px) {
+  body {
+    background-color: lightgrey;
+  }
+}/*# sourceMappingURL=styles.css.map */
