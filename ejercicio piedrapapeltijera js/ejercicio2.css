@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.game-container {
+    border: solid 2px black;
+    padding: 50px;
+}
+
+
+
+#resultado {
+    text-align: center;
+    
+}

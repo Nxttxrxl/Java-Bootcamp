@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const bulbOn = document.getElementById('bulb-on') as HTMLImageElement | null;
     const bulbOff = document.getElementById('bulb-off') as HTMLImageElement | null;

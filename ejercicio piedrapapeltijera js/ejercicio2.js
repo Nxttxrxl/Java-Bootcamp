@@ -51,3 +51,7 @@ function startGame() {
 }
 
 startGame();
+
+// al darle a un boton el background color cambia(?)
+
+
