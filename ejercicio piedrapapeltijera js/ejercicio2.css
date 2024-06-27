@@ -1,9 +1,12 @@
 body{
     display: flex;
+    background-color: white;
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    transition: background-color 0.3s ease;
+    
 }
 
 .game-container {

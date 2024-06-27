@@ -1,0 +1,22 @@
+body{
+    background-color: lightblue;
+    transition: background-color 0.3s ease;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    height: 500px;
+    transition: opacity 0.3s ease;
+}
+
+
+.hidden {
+    opacity: 0;
+}
+
