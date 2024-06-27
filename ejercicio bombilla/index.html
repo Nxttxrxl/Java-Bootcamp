@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
+    <div class="slider-container">
+        <label class="slider-label" id="opacity-label" for="opacity-slider"
+          >Ajustar intensidad</label
+        >
+        <input
+          class="slider"
+          type="range"
+          min="0.25"
+          max="1"
+          step="0.05"
+          value="0"
+          id="opacity-slider"
+        />
+      </div>
 
     <div class="container">
+      
 
-        <div class="slider">
-            <label id="slider-label" for="opacity-slider">Ajustar intensidad</label>
-            <input type="range" min="0" max="100" step="5" id="opacity-slider">
-        </div>
-
-        <div class="bulb-container">
-            <img class="bulb" id="bulb-off" src="off.jpg" alt="">
-            <img class="bulb hidden" id="bulb-on" src="on.jpg" alt="">
-        </div>
-        <div class="switch-container">
-            <img class="switch" id="switch-off" src="boff.jpg" alt="">
-            <img class="switch hidden" id="switch-on" src="bon.jpg" alt="">
-        </div>
-
+      <div class="bulb-container">
+        <img class="bulb" id="bulb-off" src="off.jpg" alt="" />
+        <img class="bulb hidden" id="bulb-on" src="on.jpg" alt="" />
+      </div>
+      <div class="switch-container">
+        <img class="switch" id="switch-off" src="boff.jpg" alt="" />
+        <img class="switch hidden" id="switch-on" src="bon.jpg" alt="" />
+      </div>
     </div>
-
+    <div class="slider-container">
+        <label class="slider-label" id="rotate-label" for="rotate-slider"
+          >Girar la bombilla</label
+        >
+        <input
+          class="slider"
+          type="range"
+          min="0"
+          max="360"
+          step="1"
+          value="0"
+          id="rotate-slider"
+        />
+      </div>
 
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
