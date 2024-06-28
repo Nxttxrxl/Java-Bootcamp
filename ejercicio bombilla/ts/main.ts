@@ -34,7 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (rotateSlider && bulbOn && bulbOff) {
         rotateSlider.addEventListener('input', () => {
             const rotateValue = parseFloat(rotateSlider.value);
-            bulbOn.style.transform = `rotate(${value}deg)`;
+            bulbOn.style.transform = `rotate(${rotateValue}deg)`;
+            bulbOff.style.transform = `rotate(${rotateValue}deg)`;
         })
     }
 
